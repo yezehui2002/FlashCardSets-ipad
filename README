@@ -1,0 +1,4 @@
+This project will be an ipad app using core data, uikit and possibly cocos2d. I used cocos2d on the iphone FlashCardSets that I developed but not sure at moment.
+cocos2d and uikit worked pretty well in the iphone version but not sure how will it still plays together. 
+
+Mainly do this to learn more about Apple's cocoa frameworks and objective-c. 
