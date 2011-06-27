@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6EE7B213B8118E0023BF43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B113B8118E0023BF43 /* UIKit.framework */; };
+		CD6EE7B413B8118E0023BF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B313B8118E0023BF43 /* Foundation.framework */; };
+		CD6EE7B613B8118E0023BF43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B513B8118E0023BF43 /* CoreGraphics.framework */; };
+		CD6EE7B813B8118E0023BF43 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B713B8118E0023BF43 /* CoreData.framework */; };
+		CD6EE7BE13B8118E0023BF43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD6EE7BC13B8118E0023BF43 /* InfoPlist.strings */; };
+		CD6EE7C113B8118E0023BF43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6EE7C013B8118E0023BF43 /* main.m */; };
+		CD6EE7C413B8118E0023BF43 /* FlashCardSetsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6EE7C313B8118E0023BF43 /* FlashCardSetsAppDelegate.m */; };
+		CD6EE7C713B8118E0023BF43 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6EE7C513B8118E0023BF43 /* MainWindow.xib */; };
+		CD6EE7CA13B8118E0023BF43 /* FlashCardSets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD6EE7C813B8118E0023BF43 /* FlashCardSets.xcdatamodeld */; };
+		CD6EE7D113B8118F0023BF43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B113B8118E0023BF43 /* UIKit.framework */; };
+		CD6EE7D213B8118F0023BF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B313B8118E0023BF43 /* Foundation.framework */; };
+		CD6EE7D313B8118F0023BF43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B513B8118E0023BF43 /* CoreGraphics.framework */; };
+		CD6EE7D413B8118F0023BF43 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B713B8118E0023BF43 /* CoreData.framework */; };
+		CD6EE7DC13B8118F0023BF43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD6EE7DA13B8118F0023BF43 /* InfoPlist.strings */; };
+		CD6EE7DF13B8118F0023BF43 /* FlashCardSetsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CD6EE7DE13B8118F0023BF43 /* FlashCardSetsTests.h */; };
+		CD6EE7E113B8118F0023BF43 /* FlashCardSetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6EE7E013B8118F0023BF43 /* FlashCardSetsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6EE7D513B8118F0023BF43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6EE7A413B8118E0023BF43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6EE7AC13B8118E0023BF43;
+			remoteInfo = FlashCardSets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6EE7AD13B8118E0023BF43 /* FlashCardSets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCardSets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6EE7B113B8118E0023BF43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD6EE7B313B8118E0023BF43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD6EE7B513B8118E0023BF43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD6EE7B713B8118E0023BF43 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CD6EE7BB13B8118E0023BF43 /* FlashCardSets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashCardSets-Info.plist"; sourceTree = "<group>"; };
+		CD6EE7BD13B8118E0023BF43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD6EE7BF13B8118E0023BF43 /* FlashCardSets-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCardSets-Prefix.pch"; sourceTree = "<group>"; };
+		CD6EE7C013B8118E0023BF43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6EE7C213B8118E0023BF43 /* FlashCardSetsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashCardSetsAppDelegate.h; sourceTree = "<group>"; };
+		CD6EE7C313B8118E0023BF43 /* FlashCardSetsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashCardSetsAppDelegate.m; sourceTree = "<group>"; };
+		CD6EE7C613B8118E0023BF43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CD6EE7C913B8118E0023BF43 /* FlashCardSets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlashCardSets.xcdatamodel; sourceTree = "<group>"; };
+		CD6EE7D013B8118F0023BF43 /* FlashCardSetsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardSetsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6EE7D913B8118F0023BF43 /* FlashCardSetsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlashCardSetsTests-Info.plist"; sourceTree = "<group>"; };
+		CD6EE7DB13B8118F0023BF43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD6EE7DD13B8118F0023BF43 /* FlashCardSetsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCardSetsTests-Prefix.pch"; sourceTree = "<group>"; };
+		CD6EE7DE13B8118F0023BF43 /* FlashCardSetsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashCardSetsTests.h; sourceTree = "<group>"; };
+		CD6EE7E013B8118F0023BF43 /* FlashCardSetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashCardSetsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6EE7AA13B8118E0023BF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EE7B213B8118E0023BF43 /* UIKit.framework in Frameworks */,
+				CD6EE7B413B8118E0023BF43 /* Foundation.framework in Frameworks */,
+				CD6EE7B613B8118E0023BF43 /* CoreGraphics.framework in Frameworks */,
+				CD6EE7B813B8118E0023BF43 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6EE7CC13B8118F0023BF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EE7D113B8118F0023BF43 /* UIKit.framework in Frameworks */,
+				CD6EE7D213B8118F0023BF43 /* Foundation.framework in Frameworks */,
+				CD6EE7D313B8118F0023BF43 /* CoreGraphics.framework in Frameworks */,
+				CD6EE7D413B8118F0023BF43 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6EE7A213B8118E0023BF43 = {
+			isa = PBXGroup;
+			children = (
+				CD6EE7B913B8118E0023BF43 /* FlashCardSets */,
+				CD6EE7D713B8118F0023BF43 /* FlashCardSetsTests */,
+				CD6EE7B013B8118E0023BF43 /* Frameworks */,
+				CD6EE7AE13B8118E0023BF43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6EE7AE13B8118E0023BF43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EE7AD13B8118E0023BF43 /* FlashCardSets.app */,
+				CD6EE7D013B8118F0023BF43 /* FlashCardSetsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6EE7B013B8118E0023BF43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EE7B113B8118E0023BF43 /* UIKit.framework */,
+				CD6EE7B313B8118E0023BF43 /* Foundation.framework */,
+				CD6EE7B513B8118E0023BF43 /* CoreGraphics.framework */,
+				CD6EE7B713B8118E0023BF43 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6EE7B913B8118E0023BF43 /* FlashCardSets */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EE7C213B8118E0023BF43 /* FlashCardSetsAppDelegate.h */,
+				CD6EE7C313B8118E0023BF43 /* FlashCardSetsAppDelegate.m */,
+				CD6EE7C513B8118E0023BF43 /* MainWindow.xib */,
+				CD6EE7C813B8118E0023BF43 /* FlashCardSets.xcdatamodeld */,
+				CD6EE7BA13B8118E0023BF43 /* Supporting Files */,
+			);
+			path = FlashCardSets;
+			sourceTree = "<group>";
+		};
+		CD6EE7BA13B8118E0023BF43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EE7BB13B8118E0023BF43 /* FlashCardSets-Info.plist */,
+				CD6EE7BC13B8118E0023BF43 /* InfoPlist.strings */,
+				CD6EE7BF13B8118E0023BF43 /* FlashCardSets-Prefix.pch */,
+				CD6EE7C013B8118E0023BF43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD6EE7D713B8118F0023BF43 /* FlashCardSetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EE7DE13B8118F0023BF43 /* FlashCardSetsTests.h */,
+				CD6EE7E013B8118F0023BF43 /* FlashCardSetsTests.m */,
+				CD6EE7D813B8118F0023BF43 /* Supporting Files */,
+			);
+			path = FlashCardSetsTests;
+			sourceTree = "<group>";
+		};
+		CD6EE7D813B8118F0023BF43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EE7D913B8118F0023BF43 /* FlashCardSetsTests-Info.plist */,
+				CD6EE7DA13B8118F0023BF43 /* InfoPlist.strings */,
+				CD6EE7DD13B8118F0023BF43 /* FlashCardSetsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6EE7AC13B8118E0023BF43 /* FlashCardSets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6EE7E413B8118F0023BF43 /* Build configuration list for PBXNativeTarget "FlashCardSets" */;
+			buildPhases = (
+				CD6EE7A913B8118E0023BF43 /* Sources */,
+				CD6EE7AA13B8118E0023BF43 /* Frameworks */,
+				CD6EE7AB13B8118E0023BF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCardSets;
+			productName = FlashCardSets;
+			productReference = CD6EE7AD13B8118E0023BF43 /* FlashCardSets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6EE7CF13B8118F0023BF43 /* FlashCardSetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6EE7E713B8118F0023BF43 /* Build configuration list for PBXNativeTarget "FlashCardSetsTests" */;
+			buildPhases = (
+				CD6EE7CB13B8118F0023BF43 /* Sources */,
+				CD6EE7CC13B8118F0023BF43 /* Frameworks */,
+				CD6EE7CD13B8118F0023BF43 /* Resources */,
+				CD6EE7CE13B8118F0023BF43 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6EE7D613B8118F0023BF43 /* PBXTargetDependency */,
+			);
+			name = FlashCardSetsTests;
+			productName = FlashCardSetsTests;
+			productReference = CD6EE7D013B8118F0023BF43 /* FlashCardSetsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6EE7A413B8118E0023BF43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = TEKSystems;
+			};
+			buildConfigurationList = CD6EE7A713B8118E0023BF43 /* Build configuration list for PBXProject "FlashCardSets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD6EE7A213B8118E0023BF43;
+			productRefGroup = CD6EE7AE13B8118E0023BF43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6EE7AC13B8118E0023BF43 /* FlashCardSets */,
+				CD6EE7CF13B8118F0023BF43 /* FlashCardSetsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6EE7AB13B8118E0023BF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EE7BE13B8118E0023BF43 /* InfoPlist.strings in Resources */,
+				CD6EE7C713B8118E0023BF43 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6EE7CD13B8118F0023BF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EE7DC13B8118F0023BF43 /* InfoPlist.strings in Resources */,
+				CD6EE7DF13B8118F0023BF43 /* FlashCardSetsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD6EE7CE13B8118F0023BF43 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6EE7A913B8118E0023BF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EE7C113B8118E0023BF43 /* main.m in Sources */,
+				CD6EE7C413B8118E0023BF43 /* FlashCardSetsAppDelegate.m in Sources */,
+				CD6EE7CA13B8118E0023BF43 /* FlashCardSets.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6EE7CB13B8118F0023BF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6EE7E113B8118F0023BF43 /* FlashCardSetsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6EE7D613B8118F0023BF43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6EE7AC13B8118E0023BF43 /* FlashCardSets */;
+			targetProxy = CD6EE7D513B8118F0023BF43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6EE7BC13B8118E0023BF43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6EE7BD13B8118E0023BF43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD6EE7C513B8118E0023BF43 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6EE7C613B8118E0023BF43 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CD6EE7DA13B8118F0023BF43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6EE7DB13B8118F0023BF43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6EE7E213B8118F0023BF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CD6EE7E313B8118F0023BF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		CD6EE7E513B8118F0023BF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCardSets/FlashCardSets-Prefix.pch";
+				INFOPLIST_FILE = "FlashCardSets/FlashCardSets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD6EE7E613B8118F0023BF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCardSets/FlashCardSets-Prefix.pch";
+				INFOPLIST_FILE = "FlashCardSets/FlashCardSets-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD6EE7E813B8118F0023BF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashCardSets.app/FlashCardSets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCardSetsTests/FlashCardSetsTests-Prefix.pch";
+				INFOPLIST_FILE = "FlashCardSetsTests/FlashCardSetsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CD6EE7E913B8118F0023BF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlashCardSets.app/FlashCardSets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlashCardSetsTests/FlashCardSetsTests-Prefix.pch";
+				INFOPLIST_FILE = "FlashCardSetsTests/FlashCardSetsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6EE7A713B8118E0023BF43 /* Build configuration list for PBXProject "FlashCardSets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6EE7E213B8118F0023BF43 /* Debug */,
+				CD6EE7E313B8118F0023BF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6EE7E413B8118F0023BF43 /* Build configuration list for PBXNativeTarget "FlashCardSets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6EE7E513B8118F0023BF43 /* Debug */,
+				CD6EE7E613B8118F0023BF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6EE7E713B8118F0023BF43 /* Build configuration list for PBXNativeTarget "FlashCardSetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6EE7E813B8118F0023BF43 /* Debug */,
+				CD6EE7E913B8118F0023BF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD6EE7C813B8118E0023BF43 /* FlashCardSets.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD6EE7C913B8118E0023BF43 /* FlashCardSets.xcdatamodel */,
+			);
+			currentVersion = CD6EE7C913B8118E0023BF43 /* FlashCardSets.xcdatamodel */;
+			path = FlashCardSets.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD6EE7A413B8118E0023BF43 /* Project object */;
+}
