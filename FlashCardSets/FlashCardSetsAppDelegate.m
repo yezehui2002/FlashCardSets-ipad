@@ -3,13 +3,14 @@
 //  FlashCardSets
 //
 //  Created by Douglas Mason on 6/26/11.
-//  Copyright 2011 TEKSystems. All rights reserved.
+//  Copyright 2011 DeveloperDoug. All rights reserved.
 //
 
 #import "FlashCardSetsAppDelegate.h"
+#import "RootViewController.h"
+#import "DetailViewController.h"
 
 @implementation FlashCardSetsAppDelegate
-
 
 @synthesize window=_window;
 
@@ -19,9 +20,27 @@
 
 @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
 
+@synthesize splitViewController = _splitViewController;
+
+@synthesize rootViewController = _rootViewController;
+
+@synthesize detailViewController = _detailViewController;
+
+- (void)dealloc
+{
+    [_window release];
+    [__managedObjectContext release];
+    [__managedObjectModel release];
+    [__persistentStoreCoordinator release];
+    [_rootViewController release];
+    [_detailViewController release];
+    [super dealloc];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window.rootViewController = self.splitViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -60,15 +79,6 @@
 {
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
-}
-
-- (void)dealloc
-{
-    [_window release];
-    [__managedObjectContext release];
-    [__managedObjectModel release];
-    [__persistentStoreCoordinator release];
-    [super dealloc];
 }
 
 - (void)awakeFromNib

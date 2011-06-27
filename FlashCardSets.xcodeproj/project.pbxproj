@@ -23,6 +23,9 @@
 		CD6EE7DC13B8118F0023BF43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD6EE7DA13B8118F0023BF43 /* InfoPlist.strings */; };
 		CD6EE7DF13B8118F0023BF43 /* FlashCardSetsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CD6EE7DE13B8118F0023BF43 /* FlashCardSetsTests.h */; };
 		CD6EE7E113B8118F0023BF43 /* FlashCardSetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6EE7E013B8118F0023BF43 /* FlashCardSetsTests.m */; };
+		CD934CA413B82338006A67C7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD934CA213B82338006A67C7 /* DetailViewController.m */; };
+		CD934CA513B82338006A67C7 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD934CA313B82338006A67C7 /* DetailView.xib */; };
+		CD934CAD13B82477006A67C7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD934CAC13B82477006A67C7 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,11 @@
 		CD6EE7DD13B8118F0023BF43 /* FlashCardSetsTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlashCardSetsTests-Prefix.pch"; sourceTree = "<group>"; };
 		CD6EE7DE13B8118F0023BF43 /* FlashCardSetsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashCardSetsTests.h; sourceTree = "<group>"; };
 		CD6EE7E013B8118F0023BF43 /* FlashCardSetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashCardSetsTests.m; sourceTree = "<group>"; };
+		CD934CA113B82338006A67C7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CD934CA213B82338006A67C7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CD934CA313B82338006A67C7 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		CD934CAB13B82477006A67C7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CD934CAC13B82477006A67C7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +127,11 @@
 				CD6EE7C213B8118E0023BF43 /* FlashCardSetsAppDelegate.h */,
 				CD6EE7C313B8118E0023BF43 /* FlashCardSetsAppDelegate.m */,
 				CD6EE7C513B8118E0023BF43 /* MainWindow.xib */,
+				CD934CA113B82338006A67C7 /* DetailViewController.h */,
+				CD934CA213B82338006A67C7 /* DetailViewController.m */,
+				CD934CA313B82338006A67C7 /* DetailView.xib */,
+				CD934CAB13B82477006A67C7 /* RootViewController.h */,
+				CD934CAC13B82477006A67C7 /* RootViewController.m */,
 				CD6EE7C813B8118E0023BF43 /* FlashCardSets.xcdatamodeld */,
 				CD6EE7BA13B8118E0023BF43 /* Supporting Files */,
 			);
@@ -201,7 +214,7 @@
 		CD6EE7A413B8118E0023BF43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = TEKSystems;
+				ORGANIZATIONNAME = DeveloperDoug;
 			};
 			buildConfigurationList = CD6EE7A713B8118E0023BF43 /* Build configuration list for PBXProject "FlashCardSets" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -228,6 +241,7 @@
 			files = (
 				CD6EE7BE13B8118E0023BF43 /* InfoPlist.strings in Resources */,
 				CD6EE7C713B8118E0023BF43 /* MainWindow.xib in Resources */,
+				CD934CA513B82338006A67C7 /* DetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +280,8 @@
 				CD6EE7C113B8118E0023BF43 /* main.m in Sources */,
 				CD6EE7C413B8118E0023BF43 /* FlashCardSetsAppDelegate.m in Sources */,
 				CD6EE7CA13B8118E0023BF43 /* FlashCardSets.xcdatamodeld in Sources */,
+				CD934CA413B82338006A67C7 /* DetailViewController.m in Sources */,
+				CD934CAD13B82477006A67C7 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
