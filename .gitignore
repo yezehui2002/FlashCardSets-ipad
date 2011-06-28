@@ -1,3 +1,4 @@
+.DS_Store
 *.pbxuser
 FlashCardSets.xcodeproj/xcuserdata/*
 FlashCardSets.xcodeproj/project.xcworkspace/xcuserdata/*
