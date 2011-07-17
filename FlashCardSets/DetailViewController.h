@@ -7,15 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AQGridView.h"
+#import "MGSplitViewController.h"
 
-@class RootViewController;
-
-@interface DetailViewController : UIViewController <UIPopoverControllerDelegate, UISplitViewControllerDelegate> {
+@interface DetailViewController : UIViewController <UIPopoverControllerDelegate, 
+                                                    MGSplitViewControllerDelegate,
+                                                    AQGridViewDelegate,
+                                                    AQGridViewDataSource> 
+{
+    NSArray *_cardViews;
+    AQGridView *_gridView;
     
+@private
+    IBOutlet MGSplitViewController *splitViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIToolbar *toolbar;
+@property (nonatomic, retain) IBOutlet AQGridView *gridView;
 
-@property (nonatomic, assign) IBOutlet RootViewController *rootViewController;
+- (void) configureView;
 
 @end

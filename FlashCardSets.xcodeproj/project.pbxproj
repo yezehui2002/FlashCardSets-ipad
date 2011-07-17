@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD05512A13D2442300CC9571 /* 3D-simplicity.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05512913D2442300CC9571 /* 3D-simplicity.png */; };
+		CD05512F13D2483000CC9571 /* CardGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD05512E13D2483000CC9571 /* CardGridViewCell.m */; };
+		CD3222ED13D3306B00E0DD2A /* MGSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3222E813D3306B00E0DD2A /* MGSplitViewController.m */; };
+		CD3222EE13D3306B00E0DD2A /* MGSplitDividerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3222EA13D3306B00E0DD2A /* MGSplitDividerView.m */; };
+		CD3222EF13D3306B00E0DD2A /* MGSplitCornersView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3222EC13D3306B00E0DD2A /* MGSplitCornersView.m */; };
 		CD6EE7B213B8118E0023BF43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B113B8118E0023BF43 /* UIKit.framework */; };
 		CD6EE7B413B8118E0023BF43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B313B8118E0023BF43 /* Foundation.framework */; };
 		CD6EE7B613B8118E0023BF43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6EE7B513B8118E0023BF43 /* CoreGraphics.framework */; };
@@ -37,6 +42,7 @@
 		CDBE6FA413B95AD3000032DD /* UIColor+AQGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBE6F9813B95AD3000032DD /* UIColor+AQGridView.m */; };
 		CDBE6FA513B95AD3000032DD /* NSIndexSet+AQIsSetContiguous.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBE6F9A13B95AD3000032DD /* NSIndexSet+AQIsSetContiguous.m */; };
 		CDBE6FA613B95AD3000032DD /* NSIndexSet+AQIndexesOutsideSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBE6F9C13B95AD3000032DD /* NSIndexSet+AQIndexesOutsideSet.m */; };
+		CDDD7D1713D2936A0038176B /* TestGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD7D1613D2936A0038176B /* TestGridViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +56,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD05512913D2442300CC9571 /* 3D-simplicity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3D-simplicity.png"; sourceTree = "<group>"; };
+		CD05512D13D2483000CC9571 /* CardGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardGridViewCell.h; sourceTree = "<group>"; };
+		CD05512E13D2483000CC9571 /* CardGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardGridViewCell.m; sourceTree = "<group>"; };
+		CD3222E713D3306B00E0DD2A /* MGSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitViewController.h; sourceTree = "<group>"; };
+		CD3222E813D3306B00E0DD2A /* MGSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitViewController.m; sourceTree = "<group>"; };
+		CD3222E913D3306B00E0DD2A /* MGSplitDividerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitDividerView.h; sourceTree = "<group>"; };
+		CD3222EA13D3306B00E0DD2A /* MGSplitDividerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitDividerView.m; sourceTree = "<group>"; };
+		CD3222EB13D3306B00E0DD2A /* MGSplitCornersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSplitCornersView.h; sourceTree = "<group>"; };
+		CD3222EC13D3306B00E0DD2A /* MGSplitCornersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGSplitCornersView.m; sourceTree = "<group>"; };
 		CD6EE7AD13B8118E0023BF43 /* FlashCardSets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCardSets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6EE7B113B8118E0023BF43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD6EE7B313B8118E0023BF43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -71,7 +86,7 @@
 		CD6EE7E013B8118F0023BF43 /* FlashCardSetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashCardSetsTests.m; sourceTree = "<group>"; };
 		CD934CA113B82338006A67C7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		CD934CA213B82338006A67C7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		CD934CA313B82338006A67C7 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		CD934CA313B82338006A67C7 /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailView.xib; path = FlashCardSets/DetailView.xib; sourceTree = "<group>"; };
 		CD934CAB13B82477006A67C7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		CD934CAC13B82477006A67C7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		CDBE6F8313B95A53000032DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -98,6 +113,8 @@
 		CDBE6F9A13B95AD3000032DD /* NSIndexSet+AQIsSetContiguous.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+AQIsSetContiguous.m"; sourceTree = "<group>"; };
 		CDBE6F9B13B95AD3000032DD /* NSIndexSet+AQIndexesOutsideSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+AQIndexesOutsideSet.h"; sourceTree = "<group>"; };
 		CDBE6F9C13B95AD3000032DD /* NSIndexSet+AQIndexesOutsideSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+AQIndexesOutsideSet.m"; sourceTree = "<group>"; };
+		CDDD7D1513D2936A0038176B /* TestGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGridViewCell.h; sourceTree = "<group>"; };
+		CDDD7D1613D2936A0038176B /* TestGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGridViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,10 +144,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD05512713D2440300CC9571 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD05512C13D2478500CC9571 /* Models */,
+				CD05512B13D2477300CC9571 /* Nibs */,
+				CD05512813D2440F00CC9571 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD05512813D2440F00CC9571 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD05512913D2442300CC9571 /* 3D-simplicity.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CD05512B13D2477300CC9571 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EE7C513B8118E0023BF43 /* MainWindow.xib */,
+				CD934CA313B82338006A67C7 /* DetailView.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		CD05512C13D2478500CC9571 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD6EE7C813B8118E0023BF43 /* FlashCardSets.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CD3222E613D3304900E0DD2A /* MGSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CD3222E713D3306B00E0DD2A /* MGSplitViewController.h */,
+				CD3222E813D3306B00E0DD2A /* MGSplitViewController.m */,
+				CD3222E913D3306B00E0DD2A /* MGSplitDividerView.h */,
+				CD3222EA13D3306B00E0DD2A /* MGSplitDividerView.m */,
+				CD3222EB13D3306B00E0DD2A /* MGSplitCornersView.h */,
+				CD3222EC13D3306B00E0DD2A /* MGSplitCornersView.m */,
+			);
+			name = MGSplitViewController;
+			sourceTree = "<group>";
+		};
 		CD6EE7A213B8118E0023BF43 = {
 			isa = PBXGroup;
 			children = (
+				CD3222E613D3304900E0DD2A /* MGSplitViewController */,
+				CDBE6F8513B95ABC000032DD /* GridView */,
 				CD6EE7B913B8118E0023BF43 /* FlashCardSets */,
+				CD05512713D2440300CC9571 /* Resources */,
 				CD6EE7D713B8118F0023BF43 /* FlashCardSetsTests */,
 				CD6EE7B013B8118E0023BF43 /* Frameworks */,
 				CD6EE7AE13B8118E0023BF43 /* Products */,
@@ -161,17 +229,17 @@
 		CD6EE7B913B8118E0023BF43 /* FlashCardSets */ = {
 			isa = PBXGroup;
 			children = (
-				CDBE6F8513B95ABC000032DD /* GridView */,
+				CDDD7D1513D2936A0038176B /* TestGridViewCell.h */,
+				CDDD7D1613D2936A0038176B /* TestGridViewCell.m */,
 				CD6EE7C213B8118E0023BF43 /* FlashCardSetsAppDelegate.h */,
 				CD6EE7C313B8118E0023BF43 /* FlashCardSetsAppDelegate.m */,
-				CD6EE7C513B8118E0023BF43 /* MainWindow.xib */,
 				CD934CA113B82338006A67C7 /* DetailViewController.h */,
 				CD934CA213B82338006A67C7 /* DetailViewController.m */,
-				CD934CA313B82338006A67C7 /* DetailView.xib */,
 				CD934CAB13B82477006A67C7 /* RootViewController.h */,
 				CD934CAC13B82477006A67C7 /* RootViewController.m */,
-				CD6EE7C813B8118E0023BF43 /* FlashCardSets.xcdatamodeld */,
 				CD6EE7BA13B8118E0023BF43 /* Supporting Files */,
+				CD05512D13D2483000CC9571 /* CardGridViewCell.h */,
+				CD05512E13D2483000CC9571 /* CardGridViewCell.m */,
 			);
 			path = FlashCardSets;
 			sourceTree = "<group>";
@@ -235,6 +303,7 @@
 				CDBE6F9C13B95AD3000032DD /* NSIndexSet+AQIndexesOutsideSet.m */,
 			);
 			name = GridView;
+			path = FlashCardSets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +379,7 @@
 				CD6EE7BE13B8118E0023BF43 /* InfoPlist.strings in Resources */,
 				CD6EE7C713B8118E0023BF43 /* MainWindow.xib in Resources */,
 				CD934CA513B82338006A67C7 /* DetailView.xib in Resources */,
+				CD05512A13D2442300CC9571 /* 3D-simplicity.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +430,11 @@
 				CDBE6FA413B95AD3000032DD /* UIColor+AQGridView.m in Sources */,
 				CDBE6FA513B95AD3000032DD /* NSIndexSet+AQIsSetContiguous.m in Sources */,
 				CDBE6FA613B95AD3000032DD /* NSIndexSet+AQIndexesOutsideSet.m in Sources */,
+				CD05512F13D2483000CC9571 /* CardGridViewCell.m in Sources */,
+				CDDD7D1713D2936A0038176B /* TestGridViewCell.m in Sources */,
+				CD3222ED13D3306B00E0DD2A /* MGSplitViewController.m in Sources */,
+				CD3222EE13D3306B00E0DD2A /* MGSplitDividerView.m in Sources */,
+				CD3222EF13D3306B00E0DD2A /* MGSplitCornersView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +471,7 @@
 				CD6EE7C613B8118E0023BF43 /* en */,
 			);
 			name = MainWindow.xib;
+			path = FlashCardSets;
 			sourceTree = "<group>";
 		};
 		CD6EE7DA13B8118F0023BF43 /* InfoPlist.strings */ = {
@@ -556,7 +632,8 @@
 				CD6EE7C913B8118E0023BF43 /* FlashCardSets.xcdatamodel */,
 			);
 			currentVersion = CD6EE7C913B8118E0023BF43 /* FlashCardSets.xcdatamodel */;
-			path = FlashCardSets.xcdatamodeld;
+			name = FlashCardSets.xcdatamodeld;
+			path = FlashCardSets/FlashCardSets.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -11,9 +11,11 @@
 @class DetailViewController;
 
 @interface RootViewController : UITableViewController {
-    
+    NSArray *_decks;
 }
 
 @property (nonatomic, retain) IBOutlet DetailViewController *detailViewController;
+
+- (void) selectFirstRow;
 
 @end

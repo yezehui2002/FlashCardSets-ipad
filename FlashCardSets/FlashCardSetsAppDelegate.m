@@ -7,23 +7,18 @@
 //
 
 #import "FlashCardSetsAppDelegate.h"
+#import "MGSplitViewController.h"
 #import "RootViewController.h"
 #import "DetailViewController.h"
 
 @implementation FlashCardSetsAppDelegate
 
 @synthesize window=_window;
-
 @synthesize managedObjectContext=__managedObjectContext;
-
 @synthesize managedObjectModel=__managedObjectModel;
-
 @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
-
 @synthesize splitViewController = _splitViewController;
-
 @synthesize rootViewController = _rootViewController;
-
 @synthesize detailViewController = _detailViewController;
 
 - (void)dealloc
@@ -32,6 +27,7 @@
     [__managedObjectContext release];
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
+    [_splitViewController release];
     [_rootViewController release];
     [_detailViewController release];
     [super dealloc];
@@ -40,8 +36,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    self.window.rootViewController = self.splitViewController;
+    [self.window addSubview:self.splitViewController.view];
     [self.window makeKeyAndVisible];
+    
+    [self.rootViewController performSelector:@selector(selectFirstRow) withObject:nil afterDelay:0];
+    [self.detailViewController performSelector:@selector(configureView) withObject:nil afterDelay:0];
+    
+    self.splitViewController.splitWidth = 15.0;     // make it wide enough to actually drag!
+    self.splitViewController.allowsDraggingDivider = YES;
+    self.splitViewController.showsMasterInLandscape = YES;
+    self.splitViewController.dividerStyle = MGSplitViewDividerStylePaneSplitter;
+    
     return YES;
 }
 

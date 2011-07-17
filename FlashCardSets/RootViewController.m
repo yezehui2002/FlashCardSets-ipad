@@ -14,12 +14,23 @@
 @synthesize detailViewController;
 
 - (void) dealloc {
-    [detailViewController release];
+    [self.detailViewController release];
+    [_decks release];
     [super dealloc];
 }
 
 - (void) viewDidLoad {
     [super viewDidLoad];
+    
+    NSMutableArray *array = [[NSMutableArray alloc] init];
+    
+    [array addObject:@"Deck 1"];
+    [array addObject:@"Deck 2"];
+    [array addObject:@"Deck 3"];
+    
+    _decks = [array copy];
+    
+    [array release];
 }
 
 - (void) viewWillAppear:(BOOL)animated {
@@ -46,7 +57,7 @@
 #pragma mark Table View Methods 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+    return [_decks count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -57,10 +68,17 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
     }
     
-    // Configure the cell.
-    //[self configureCell:cell atIndexPath:indexPath];
+    cell.textLabel.text = [_decks objectAtIndex:indexPath.row];
     
     return cell;
+}
+
+#pragma mark -
+#pragma mark Custom Instance Methods
+
+- (void) selectFirstRow
+{
+
 }
 
 @end
